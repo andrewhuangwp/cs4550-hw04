@@ -18,8 +18,22 @@ defmodule Practice do
 
   def factor(x) do
     # Maybe delegate this too.
-    [1,2,x]
+    factorization(x, 2, [])
+  end
+
+  def factorization(x, factor, factors) do
+    cond do 
+      x < factor * factor ->
+        factors ++ [x]
+      rem(x, factor) == 0 ->
+        factorization(div(x, factor), factor, factors ++ [factor])
+      true ->
+        factorization(x, factor + 1, factors)
+    end
   end
 
   # TODO: Add a palindrome? function.
+  def palindrome?(x) do
+    x == String.reverse(x)
+  end
 end
