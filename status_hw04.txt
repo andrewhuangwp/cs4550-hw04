@@ -5,7 +5,7 @@ Please fill in answers to the questions below:
 Andrew Huang
 
 2. What hostname did you deploy your app to?
-Hw04.normalwebsite.art
+hw04.normalwebsite.art
 
 3. What's the URL of your git for this assignment?
 https://github.com/andrewhuangwp/cs4550-hw04
@@ -20,7 +20,8 @@ Yes
 Not very comfortable
 
 7. Which parts of this assignment did you have trouble with, if any?
-The evaluate expression took the most time.
+The evaluate expression took a lot of time, but I had the most trouble with deploying since I ran into a 
+bunch of errors.
 
 
 
